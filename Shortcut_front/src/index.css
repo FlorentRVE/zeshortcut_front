@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+ font-family: "FasterStroker";
+ src: local("FasterStroker"),
+  url("/zeshortcut/Shortcut_front/public/font/Faster\ Stroker.otf") format("otf");
+ /* font-weight: bold; */
+}
+
+.fontFasterStroker {
+  font-family: "FasterStroker";
+}
